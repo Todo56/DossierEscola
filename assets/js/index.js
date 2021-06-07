@@ -58,7 +58,8 @@ const Temes = [{
         }, {
             "name": "PC Creator",
             "link": "https://play.google.com/store/apps/details?id=com.ultraandre.pccreator"
-        }]
+        }],
+        images: ["https://cdn.todo56.dev/informatica/auxImages/PCCreator.png"]
     },
     {
         "id": 2,
@@ -136,13 +137,14 @@ const Temes = [{
         "name": "Linux",
         "trimestre": 1,
         "description": `La següent activitat es una continuació de la primera on havíem de treure Windows de l'ordinador. Així només quedaría Linux. Després havíem de posar el nom LINUX# (# es el número del ordinador assignat) a l'ordinador, crear dos usuaris un amb contrasenya, administrador anomenat LINUXMASTER i l'altre estàndard amb el nom de LINUXSTUDENT, canviar el fons del escriptori i connectar-nos a una wifi específica.<br><br>L'objectiu d'aquesta activitat era conèixer una mica més sobre linux. Jo la vaig fer molt ràpid ja que tinc bastants coneixements de Linux per tant vaig estar ajudant als meus companys també. `,
-        "avis": "Aquest treball es va realitzar en un ordinador del col·legi per tant no es possible mostrar-lo aquí."
+        "avis": "Aquest treball es va realitzar en un ordinador del col·legi per tant no es possible mostrar-lo aquí.",
+        "images": ["https://cdn.todo56.dev/informatica/auxImages/Linux.jpg"]
     },
     {
         "id": 5,
         "name": "Virus",
         "trimestre": 1,
-        "description": `El últim tema que vam tractar el primer trimestre van ser els tipus de malware, en especial els virus. Vam fer una presentació que al final no vam presentar.`,
+        "description": `El últim tema que vam tractar el primer trimestre van ser els tipus de malware, en especial els virus. Havíem de fer una presentació responent una sèrie de preguntes clau que eren: <br><br>Què és un virus informàtic? <br>Quin tipus d'efectes i danys causen els virus informàtics?<br>Principals característiques d'aquests<br>Què son els cucs i trojans?<br>Com es propáguen els virus?<br>Mesures de prevenció per evitar infeccions.<br>Antivirus: Tipus<br>(opcional) Historia dels virus.<br><br>Al final no vem presentar l'exposició.`,
         "files": [{
             "name": "Presentació Virus",
             "link": "https://cdn.todo56.dev/informatica/treballs/virusppt.odp"
@@ -183,7 +185,13 @@ function carregarTema(elementId, temaId) {
   </div>
 </div>
             `;
-
+            
+            if (tema.images && tema.images.length !== 0) {
+                for (const image of tema.images) {
+                    element.innerHTML = element.innerHTML + `<br>º<img src='${image}' width="500px">`;
+                }
+                element.innerHTML = element.innerHTML + "<br><br>";
+            }
 
             if (tema.files && tema.files.length !== 0) {
                 element.innerHTML = element.innerHTML + "<h5>Arxius:</h5>";
@@ -234,10 +242,16 @@ function obtenirTemaEnHtml(tema) {
   <div class="card-body">
     <h5 class="card-title">Descripció:</h5>
     <p class="card-text" style="font-size: 15px;">${tema.description}</p>
-  </div>
-  <div class="card-footer">
     `;
 
+    if(tema.images && tema.images.length !== 0){
+        for(const image of tema.images){
+            base = base + `<img src='${image}' width="250px">`;
+        }
+    }
+
+    base = base + `  </div>
+    <div class="card-footer">`;
 
     if (tema.files && tema.files.length !== 0) {
         base = base + "<h6>Arxius:</h6>";
