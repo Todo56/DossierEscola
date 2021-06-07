@@ -2,7 +2,7 @@ const Temes = [{
         "id": 0,
         "name": "Manteniment del teu PC",
         "trimestre": 1,
-        "description": `Aquesta activitat es tractava de posar a punt el nostre ordinador escolar per ús escolar. Després també havíem de fer tutorials per ficar un PC a punt per ús en la nostra escola. Aquest treball podia ser en qualsevol format digital i qualsevol llengua que es parlés o s'ensenyes al col·legi (Francès, Anglès, Català, Castellà). Per posar el PC a punt s'havia de canviar el nom del PC a CURSNOMCOGNOM, crear un usuari, canviar el nom d'aquest usuari a JARDI, canviar un usuari estándard a Administrador i finalment saber la MAC del teu PC.<br><br>Jo vaig escollir fer-ho en HTML i en Anglès. El meu treball es pot observar a la secció de Arxius.`,
+        "description": `Aquesta activitat es tractava de posar a punt el nostre ordinador escolar per ús escolar. Després també havíem de fer tutorials per ficar un PC a punt per ús en la nostra escola. Aquest treball podia ser en qualsevol format digital i qualsevol llengua que es parlés o s'ensenyes al col·legi (Francès, Anglès, Català, Castellà). Per posar el PC a punt s'havia de canviar el nom del PC a CURSNOMCOGNOM, crear un usuari, canviar el nom d'aquest usuari a JARDI, canviar un usuari estàndard a Administrador i finalment saber la MAC del teu PC.<br><br>Jo vaig escollir fer-ho en HTML i en Anglès. El meu treball es pot observar a la secció de Arxius.`,
         "files": [{
                 "name": "Tutorial Canvi de Nom",
                 "link": "https://cdn.todo56.dev/informatica/treballs/change_name.html"
@@ -26,7 +26,7 @@ const Temes = [{
             },
             {
                 "word": "HTML",
-                "description": "Format d'archius que utilitzen les págines web, es podría considerar com un document word però que es mostra en un navegador."
+                "description": "Format d'arxius que utilitzen les págines web, es podría considerar com un document word però que es mostra en un navegador."
             }
         ]
     },
@@ -34,14 +34,14 @@ const Temes = [{
         "id": 1,
         "name": "PC Creator",
         "trimestre": 1,
-        "description": `Aquesta activitat estava basada en un joc per móvil anomenat "PC Creator". Per no haver d'utilitzar el nostre móvil van descarregar-nos un emulador (BlueStacks). En aquest joc eres el propietari d'un taller de reparació de ordinadors i havies de complir encarrecs que uns clients et demanaven. Entre aquests encàrrecs et podies trobar a clients que volíen que milloresis els seus pcs, que fessis un de nou, que instalessis un sistema operatiu, que actualitzessis els drivers o instalessis un joc.<br><br>L'objectiu d'aquesta activitat era aprendre les parts d'un ordinador i veure una simulació de com es monten. Per mostrar els nostres coneixements, després de 3 sessions jugant, vam haver de enviar un document amb fotos indicant el procés de montar un ordinador desde 0 al joc.`,
+        "description": `Aquesta activitat estava basada en un joc per móvil anomenat "PC Creator". Per no haver d'utilitzar el nostre móvil van descarregar-nos un emulador (BlueStacks). En aquest joc eres el propietari d'un taller de reparació de ordinadors i havies de complir encàrrecs que uns clients et demanaven. Entre aquests encàrrecs et podies trobar a clients que volíen que milloressis els seus pcs, que fessis un de nou, que instal·lessis un sistema operatiu, que actualitzessis els drivers o instal·lessis un joc.<br><br>L'objectiu d'aquesta activitat era aprendre les parts d'un ordinador i veure una simulació de com es munten. Per mostrar els nostres coneixements, després de 3 sessions jugant, vam haver de enviar un document amb fotos indicant el procés de muntar un ordinador des de 0 al joc.`,
         "glossary": [{
                 "word": "Emulador",
-                "description": "Programa que simula un móvil al teu PC. Així pots utilitzar apps móvils en el teu PC."
+                "description": "Programa que simula un móvil al teu PC. Així pots utilitzar apps mòbils en el teu PC."
             },
             {
                 "word": "Sistema Operatiu",
-                "description": "Exemples: MacOS, Windows 10, Android, IOS. Programa sobre el cual es monten aplicacions. Normalment interactua directament amb el maquinari del dispositiu."
+                "description": "Exemples: MacOS, Windows 10, Android, IOS. Programa sobre el qual es munten aplicacions. Normalment interactua directament amb el maquinari del dispositiu."
             },
             {
                 "word": "Drivers",
@@ -49,7 +49,7 @@ const Temes = [{
             }
         ],
         "files": [{
-            "name": "Procés de Montar un PC",
+            "name": "Procés de Muntar un PC",
             "link": "https://cdn.todo56.dev/informatica/treballs/pccreatornewpc.pdf"
         }],
         "links": [{
@@ -64,18 +64,18 @@ const Temes = [{
         "id": 2,
         "name": "Què te el teu Ordinador?",
         "trimestre": 1,
-        "description": `En aquesta activitat havíem de comprobar quins components té el nostre ordinador. Això ens mostra que els components que hi ha al joc si que son reals. L'objectiu era buscar un programa que et donés la máxima informació sobre el teu dispositiu, ficar-la en un word i enviar-la al professor. Jo vaig utilitzar un programa que coneixia prèviament anomenat HWiNfo, que et diu molts detalls sobre el teu CPU, GPU, RAM, Drives, Placa Base, Monitor...<br><br>Després el professor ens va ensenyar un programa que ho feia. Mostraba informació similar a la que vaig trobar però més ordenada.`,
+        "description": `En aquesta activitat havíem de comprovar quins components té el nostre ordinador. Això ens mostra que els components que hi ha al joc si que son reals. L'objectiu era buscar un programa que et donés la màxima informació sobre el teu dispositiu, ficar-la en un word i enviar-la al professor. Jo vaig utilitzar un programa que coneixia prèviament anomenat HWiNfo, que et diu molts detalls sobre el teu CPU, GPU, RAM, Drives, Placa Base, Monitor...<br><br>Després el professor ens va ensenyar un programa que ho feia. Mostrava informació similar a la que vaig trobar però més ordenada.`,
         "glossary": [{
                 "word": "CPU",
                 "description": "Principal peça d'un ordinador. Processa totes les seves dades."
             },
             {
                 "word": "GPU",
-                "description": "Processador de gráfics d'un ordinador. Encarregat de carregar els gráfics dels programmes."
+                "description": "Processador de gràfics d'un ordinador. Encarregat de carregar els gràfics dels programes."
             },
             {
                 "word": "RAM",
-                "description": "Memòria que utilitza el ordinador. És rápidament accessible per tant els programes que están sent executats la utilitzen."
+                "description": "Memòria que utilitza el ordinador. És ràpidament accessible per tant els programes que están sent executats la utilitzen."
             },
             {
                 "word": "Drives",
@@ -83,7 +83,7 @@ const Temes = [{
             },
             {
                 "word": "Placa Base",
-                "description": "Placa sobre la cual es monten totes aquestes peces. També les conecta entre elles i té els ports USB i per audio."
+                "description": "Placa sobre la qual es col·loquen totes aquestes peces. També les connecta entre elles i té els ports USB i per audio."
             }
         ],
         "files": [{
@@ -102,18 +102,18 @@ const Temes = [{
         "id": 3,
         "name": "Posar a punt un PC real.",
         "trimestre": 1,
-        "description": `En aquesta activitat el professor ens va assignar un ordinador de l'escola a cadascun. Eren bastant vells però eren prou per l'activitat. Havíem de treure tots els sistemes operatius i instalar dos sistemes operatius, un basat en Linux i Windows.<br><br>Això era per ensenyar-nos posteriorment com funciona Linux i per demostrar que hi ha altres sistemes operatius a part de Windows que tots utilizem. Jo ja havia tingut molta experiencia fent aquests tipus d'activitats per tant ho vaig fer en un dia i les altres sessions vaig estar ajudant per la classe.`,
+        "description": `En aquesta activitat el professor ens va assignar un ordinador de l'escola a cadascun. Eren bastant vells però eren prou per l'activitat. Havíem de treure tots els sistemes operatius i instal·lar dos sistemes operatius, un basat en Linux i Windows.<br><br>Això era per ensenyar-nos posteriorment com funciona Linux i per demostrar que hi ha altres sistemes operatius a part de Windows que tots utilizem. Jo ja havia tingut molta experiència fent aquests tipus d'activitats per tant ho vaig fer en un dia i les altres sessions vaig estar ajudant per la classe.`,
         "glossary": [{
                 "word": "Kernel",
-                "description": "Programa sobre el cual es construeix el sistema operatiu."
+                "description": "Programa sobre el qual es construeix el sistema operatiu."
             },
             {
                 "word": "Programari Obert",
-                "description": "Programa que és d'ús públic i que el seu codi és accessible per cualsevol persona on-line."
+                "description": "Programa que és d'ús públic i que el seu codi és accessible per qualsevol persona on-line."
             },
             {
                 "word": "Linux",
-                "description": "Linux és un Kernel molt usat. És programari obert per tant qualsevol persona el pot utilitzar gratis. Hi ha diferents sistemes operatius construits sobre aquest kernel com Ubuntu, Fedora..."
+                "description": "Linux és un Kernel molt usat. És programari obert per tant qualsevol persona el pot utilitzar gratis. Hi ha diferents sistemes operatius construïts sobre aquest kernel com Ubuntu, Fedora..."
             }
         ],
         "files": [{
@@ -135,7 +135,7 @@ const Temes = [{
         "id": 4,
         "name": "Linux",
         "trimestre": 1,
-        "description": `La següent activitat es una continuació de la primera on havíem de treure Windows de l'ordinador. Així només quedaría Linux. Després havíem de posar el nom LINUX# (# es el número del ordinador assignat) a l'ordinador, crear dos usuaris un amb contrasenya, administrador anomenat LINUXMASTER i l'altre estàndart amb el nom de LINUXSTUDENT, canviar el fons del escriptori i conectar-nos a una wifi específica.<br><br>L'objectiu d'aquesta activitat era conèixer una mica més sobre linux. Jo la vaig fer molt rápid ja que tinc bastants coneixements de Linux per tant vaig estar ajudant als meus companys també. `,
+        "description": `La següent activitat es una continuació de la primera on havíem de treure Windows de l'ordinador. Així només quedaría Linux. Després havíem de posar el nom LINUX# (# es el número del ordinador assignat) a l'ordinador, crear dos usuaris un amb contrasenya, administrador anomenat LINUXMASTER i l'altre estàndard amb el nom de LINUXSTUDENT, canviar el fons del escriptori i connectar-nos a una wifi específica.<br><br>L'objectiu d'aquesta activitat era conèixer una mica més sobre linux. Jo la vaig fer molt ràpid ja que tinc bastants coneixements de Linux per tant vaig estar ajudant als meus companys també. `,
         "avis": "Aquest treball es va realitzar en un ordinador del col·legi per tant no es possible mostrar-lo aquí."
     },
     {
@@ -236,9 +236,6 @@ function obtenirTemaEnHtml(tema) {
     <p class="card-text" style="font-size: 15px;">${tema.description}</p>
   </div>
   <div class="card-footer">
-    
-
-    
     `;
 
 

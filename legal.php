@@ -29,7 +29,39 @@
     ?>
     <div class="container">
         <h1 class="text-center">Legal:</h1><br>
-        <h3>Aquesta part encara està en construcció.</h3>
+        <p>Aquesta pàgina web és programari obert llicenciat amb la llicència MIT. Pots veure el codi <a href="https://github.com/Todo56/DossierEscola">aquí</a>. Tots els recursos utilitzats aquí están sent utilitzats per educació. Aquesta web es únicament per presentar el dossier de final de curs. En el cas de que s'hagi utilitzat un recurs seu i no vol que es mostri pot enviar un email a gottfried@todo56.dev.<p>
+        <br><br>
+        <div class="row">
+            <p class="col-lg-2">
+            
+            </p>
+            <p class="col-lg-8">
+            MIT License
+
+Copyright (c) 2021 Gottfried Rosenberger<br><br>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:<br><br>
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.<br><br>
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+            </p>
+            <p class="col-lg-2">
+            
+            </p>
+        </div>
     </div>
     <?php 
         include("./assets/partials/footer.php");

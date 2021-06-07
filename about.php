@@ -28,8 +28,11 @@
         include("./assets/partials/navbar.php");
     ?>
     <div class="container">
-        <h1 class="text-center">Legal:</h1><br>
-        <h3>Aquesta part encara està en construcció.</h3>
+        <h1 class="text-center">Sobre Mi:</h1>
+        <br>
+        Soc Gottfried Rosenberger Gago, un programador de PHP, JavaScript (server i client), SQL i administrador de sistemes linux i bases de dades. També soc un gran fan dels videojocs com Battlefield V, Hitman 3, Minecraft...
+        <br><br>
+
     </div>
     <?php 
         include("./assets/partials/footer.php");
