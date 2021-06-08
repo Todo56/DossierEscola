@@ -155,19 +155,33 @@ const Temes = [{
         "id": 6,
         "name": "Glossari Malware",
         "trimestre": 2,
-        "description": ``
+        "description": `Aquesta activitat tractava sobre fer un glossari relacionat estríctament amb malware. Després aquest glossari havia de servir com a "chuleta" a la prova de Malware. Malauradament vam decidir fer-ho entre tota la classe i no vam tenir una bona política de grup. Això va causar que el professor tanqués la activitat. El producte final no està disponible ja que un alumne va vandalitzar el document de google docs.`
     },
     {
         "id": 7,
         "name": "Joc de Ciberseguretat",
         "trimestre": 2,
-        "description": ``
+        "description": `Aquesta activitat era similar al PC Creator. Vam utilitzar el emulador BlueStacks per jugar a un joc de móvil anomenat "Hackers vs Cybercrook". L'objectiu de jugar era aprendre una mica més sobre ciberseguretat i com protegir-se d'amenaces on-line.
+        `,
+        "links" : [{
+            "name": "Hackers vs Cybercrook",
+            "link": "https://www.osi.es/es/hackers"
+        }]
     },
     {
         "id": 8,
         "name": "Corporació Digito Estética",
         "trimestre": 2,
-        "description": ``
+        "description": `Aquesta activitat va començar el bloc de edició d'imatge. El professor ens va recomanar utilitzar un programa de programari obert anomenat "GIMP" i ens va donar unes instruccions per editar imatges. Havíem de buscar una imatge amb una persona amb pigues i treure-les, blanquejar les dents, treure les potes de gall, blanquejar ulls vermells, canviar el color dels llavis, treure les entrades, canviar el color d'ull, omplir un forat a una dent i finalment canviar el color de cabell d'una persona. <br><br>Cada activitat s'havia de fer en una imatge diferent i s'havien d'entregar en una carpeta comprimida amb l'original. Jo no vaig interpretar bé la activitat i les vaig entregar totes en una carpeta enlloc de diferents carpetes.`,
+        "links": [{
+            "name": "GIMP",
+            "link": "https://www.gimp.org/"
+        },
+        {
+            "name": "Imatges",
+            "link": "https://cdn.todo56.dev/informatica/"
+        }
+    ]
     },
     {
         "id": 9,

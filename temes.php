@@ -34,6 +34,14 @@
         </div>
         <br>
         <hr>
+        <div id="2">
+        </div>
+        <br>
+        <hr>
+        <div id="3">
+        </div>
+        <br>
+        <hr>
     </div>
     <?php 
         include("./assets/partials/footer.php");
@@ -47,6 +55,8 @@ carregarTrimestre("navbar3", 3, true)
 </script>
 <script>
 carregarTrimestre("1", 1);
+carregarTrimestre("2", 2);
+carregarTrimestre("3", 3);
 </script>
 
 </html>
