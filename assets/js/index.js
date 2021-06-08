@@ -149,6 +149,117 @@ const Temes = [{
             "name": "Presentació Virus",
             "link": "https://cdn.todo56.dev/informatica/treballs/virusppt.odp"
         }]
+    },
+    // TRIMESTRE
+    {
+        "id": 6,
+        "name": "Glossari Malware",
+        "trimestre": 2,
+        "description": ``
+    },
+    {
+        "id": 7,
+        "name": "Joc de Ciberseguretat",
+        "trimestre": 2,
+        "description": ``
+    },
+    {
+        "id": 8,
+        "name": "Corporació Digito Estética",
+        "trimestre": 2,
+        "description": ``
+    },
+    {
+        "id": 9,
+        "name": "Clients de la Nostra Clínica (Mini prova avaluativa)",
+        "trimestre": 2,
+        "description": ``
+    },
+    {
+        "id": 10,
+        "name": "GIMP ART i Prova",
+        "trimestre": 2,
+        "description": ``
+    },
+    {
+        "id": 11,
+        "name": "Informació sobre la Geolocalització",
+        "trimestre": 2,
+        "description": ``
+    },
+    {
+        "id": 12,
+        "name": "Edició de Vídeos",
+        "trimestre": 2,
+        "description": ``
+    },
+    {
+        "id": 13,
+        "name": "Activitat Dinàmica de Codificació",
+        "trimestre": 2,
+        "description": ``
+    },
+    {
+        "id": 14,
+        "name": "Sistemes Numèrics",
+        "trimestre": 2,
+        "description": ``
+    },
+    {
+        "id": 15,
+        "name": "Prova Sistemes Numèrics",
+        "trimestre": 2,
+        "description": ``
+    },
+    {
+        "id": 16,
+        "name": "Realitat Virtual",
+        "trimestre": 2,
+        "description": ``
+    },
+    {
+        "id": 17,
+        "name": "Treball de Realitats Virtual",
+        "trimestre": 2,
+        "description": ``
+    },
+
+    // TERCER TRIMESTRE
+    {
+        "id": 18,
+        "name": "Programació: Simulador I",
+        "trimestre": 3,
+        "description": ``
+    },    
+    {
+        "id": 19,
+        "name": "Programació: Per Blocs II",
+        "trimestre": 3,
+        "description": ``
+    },    
+    {
+        "id": 20,
+        "name": "Programació Scratch: Debugging",
+        "trimestre": 3,
+        "description": ``
+    },    
+    {
+        "id": 21,
+        "name": "Programació Scratch: Pong",
+        "trimestre": 3,
+        "description": ``
+    },    
+    {
+        "id": 22,
+        "name": "Programació Scratch: Arkanoid",
+        "trimestre": 3,
+        "description": ``
+    },    
+    {
+        "id": 23,
+        "name": "Pàgina Web",
+        "trimestre": 3,
+        "description": ``
     }
 ];
 

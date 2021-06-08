@@ -32,6 +32,7 @@
                     <div id="navbar2">
 
                     </div>
+                    <div class="dropdown-divider"></div>
                     <div id="navbar3">
 
                     </div>
