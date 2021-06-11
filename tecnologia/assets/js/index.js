@@ -1,6 +1,72 @@
-const Temes = [{
-    
-}
+const Temes = [
+    {
+        "id": 1,
+        "name": "Mini Treball Sobre Relés",
+        "trimestre": 3,
+        "description": `En aquesta activitat vam haver de buscar informació sobre els relés (Què és, tipus, com funciona, per a què serveix).`,
+        "files": [{
+            "name": "Activitat de Relés",
+            "link": "https://cdn.todo56.dev/tecnologia/work/informe-rele.odt"
+        }]
+    },
+    {
+        "id": 2,
+        "name": "Activitat de Relés",
+        "trimestre": 3,
+        "description": `El professor ens va donar un arxiu amb activitats relacionades amb relés que vam haver de completar i entregar pel teams.`,
+        "files": [
+            {
+                "name": "Activitat Relés",
+                "link": "https://cdn.todo56.dev/tecnologia/work/Ejercicios reles.pdf"
+            }
+        ] 
+    },
+    {
+        "id": 3,
+        "name": "Examen 'nostre' de electrònica analògica",
+        "trimestre": 3,
+        "description": ``,
+        "files": [
+            {
+                "name": "Activitat Relés",
+                "link": "https://cdn.todo56.dev/tecnologia/work/Ejercicios reles.pdf"
+            }
+        ] 
+    },
+    {
+        "id": 4,
+        "name": "Taules de la veritat",
+        "trimestre": 3,
+        "description": ``,
+        "files": [
+            {
+                "name": "Activitat Relés",
+                "link": "https://cdn.todo56.dev/tecnologia/work/Ejercicios reles.pdf"
+            }
+        ] 
+    },
+    {
+        "id": 5,
+        "name": "Àlgebra de Boole",
+        "trimestre": 3,
+        "description": `En aquesta activitat havíem de veure un vídeo i intentar detectar un error molt gran que hi havia. Resulta que la variable B a la part inferior esquerra no era necessària.`,
+        "links": [{
+            "name": "Vídeo",
+            "link": "https://www.youtube.com/watch?list=RDCMUCbho5-gJi8FwvhVFzfod6VQ&v=9_rpiAScBvk&feature=youtu.be"
+        }]
+    },
+    {
+        "id": 6,
+        "name": "Simplificació de funciones Booleanas",
+        "trimestre": 3,
+        "description": ``,
+        "files": [
+            {
+                "name": "Activitat Relés",
+                "link": "https://cdn.todo56.dev/tecnologia/work/Ejercicios reles.pdf"
+            }
+        ] 
+    }
 ];
 
 function carregarTrimestre(elementId, trimestreId, navbar = false) {
