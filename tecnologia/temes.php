@@ -29,18 +29,8 @@
     ?>
     <div class="container">
         <h1 class="text-center">Temes:</h1><br>
-        <h2>Primer Trimestre:</h2>
-        <div id="1">
-        </div>
-        <br>
-        <hr>
-        <h2>Segon Trimestre:</h2>
-        <div id="2">
-        </div>
-        <br>
-        <hr>
-        <h2>Tercer Trimestre:</h2>
         <div id="3">
+            <h2>Tercer Trimestre:</h2>
         </div>
         <br>
         <hr>

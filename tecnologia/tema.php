@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Temes</title>
+    <title>Tema</title>
     <link rel="shortcut icon" type="image/x-icon" href="./assets/images/logo.png" />
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -28,22 +28,9 @@
         include("./assets/partials/navbar.php");
     ?>
     <div class="container">
-        <h1 class="text-center">Temes:</h1><br>
-        <h2>Primer Trimestre:</h2>
-        <div id="1">
+        <div id="tema">
+        
         </div>
-        <br>
-        <hr>
-        <h2>Segon Trimestre:</h2>
-        <div id="2">
-        </div>
-        <br>
-        <hr>
-        <h2>Tercer Trimestre:</h2>
-        <div id="3">
-        </div>
-        <br>
-        <hr>
     </div>
     <?php 
         include("./assets/partials/footer.php");
@@ -51,14 +38,21 @@
 </body>
 <script src="./assets/js/index.js"></script>
 <script>
+function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
 carregarTrimestre("navbar1", 1, true)
 carregarTrimestre("navbar2", 2, true)
 carregarTrimestre("navbar3", 3, true)
 </script>
 <script>
-carregarTrimestre("1", 1);
-carregarTrimestre("2", 2);
-carregarTrimestre("3", 3);
+carregarTema("tema", getParameterByName("id"))
 </script>
 
 </html>

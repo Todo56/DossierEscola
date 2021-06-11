@@ -19,7 +19,6 @@
         .blue {
             background-color: blue;
         }
-
         a {
             color: black;
         }

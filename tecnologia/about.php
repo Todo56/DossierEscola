@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Temes</title>
+    <title>Legal</title>
     <link rel="shortcut icon" type="image/x-icon" href="./assets/images/logo.png" />
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -28,22 +28,11 @@
         include("./assets/partials/navbar.php");
     ?>
     <div class="container">
-        <h1 class="text-center">Temes:</h1><br>
-        <h2>Primer Trimestre:</h2>
-        <div id="1">
-        </div>
+        <h1 class="text-center">Sobre Mi:</h1>
         <br>
-        <hr>
-        <h2>Segon Trimestre:</h2>
-        <div id="2">
-        </div>
-        <br>
-        <hr>
-        <h2>Tercer Trimestre:</h2>
-        <div id="3">
-        </div>
-        <br>
-        <hr>
+        Soc Gottfried Rosenberger Gago, un programador de PHP, JavaScript (server i client), SQL i administrador de sistemes linux i bases de dades. També soc un gran fan dels videojocs com Battlefield V, Hitman 3, Minecraft...
+        <br><br>
+
     </div>
     <?php 
         include("./assets/partials/footer.php");
@@ -55,10 +44,6 @@ carregarTrimestre("navbar1", 1, true)
 carregarTrimestre("navbar2", 2, true)
 carregarTrimestre("navbar3", 3, true)
 </script>
-<script>
-carregarTrimestre("1", 1);
-carregarTrimestre("2", 2);
-carregarTrimestre("3", 3);
-</script>
+
 
 </html>
