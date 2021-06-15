@@ -19,34 +19,22 @@ const Temes = [
                 "name": "Activitat Relés",
                 "link": "https://cdn.todo56.dev/tecnologia/work/Ejercicios reles.pdf"
             }
-        ] 
+        ]
     },
     {
         "id": 3,
         "name": "Examen 'nostre' de electrònica analògica",
         "trimestre": 3,
-        "description": ``,
+        "description": `Aquesta activitat era bastant peculiar. El professor ens va demanar a cada alumne de preparar 10 preguntes tipus examen. Després ell agafaria 10 d'aquestes i ens faria un examen amb elles, aquestes podien ser sobre qualsevol tema discutit aquest any a tecnologia. Després de escriure preguntes vam haver de escriure unes respostes per aquestes i penjar-les a una carpeta del drive. Aquest examen no va ser molt positiu ja que hi havia una pregunta que era completament impossible de resoldre amb les dades i que era de batxillerat.`,
         "files": [
             {
                 "name": "Activitat Relés",
                 "link": "https://cdn.todo56.dev/tecnologia/work/Ejercicios reles.pdf"
             }
-        ] 
+        ]
     },
     {
         "id": 4,
-        "name": "Taules de la veritat",
-        "trimestre": 3,
-        "description": ``,
-        "files": [
-            {
-                "name": "Activitat Relés",
-                "link": "https://cdn.todo56.dev/tecnologia/work/Ejercicios reles.pdf"
-            }
-        ] 
-    },
-    {
-        "id": 5,
         "name": "Àlgebra de Boole",
         "trimestre": 3,
         "description": `En aquesta activitat havíem de veure un vídeo i intentar detectar un error molt gran que hi havia. Resulta que la variable B a la part inferior esquerra no era necessària.`,
@@ -56,16 +44,42 @@ const Temes = [
         }]
     },
     {
-        "id": 6,
-        "name": "Simplificació de funciones Booleanas",
+        "id": 5,
+        "name": "Taules de la veritat",
         "trimestre": 3,
-        "description": ``,
+        "description": `Aquesta activitat va ser la primera dins del algebra de boole i va ser traduir uns textos a taules de la veritat. `,
         "files": [
             {
                 "name": "Activitat Relés",
                 "link": "https://cdn.todo56.dev/tecnologia/work/Ejercicios reles.pdf"
             }
-        ] 
+        ]
+    },
+    {
+
+        "id": 6,
+        "name": "Minterm i Maxterm",
+        "trimestre": 3,
+        "description": `En aquesta activitat havíem de simplificar les funcions booleanes que vam obtenir a partir de les taules de fa uns exercicis. La simplificació es fa reduint certes expressions que donen un resultat assegurat.`,
+        "files": [
+            {
+                "name": "Activitat Relés",
+                "link": "https://cdn.todo56.dev/tecnologia/work/Ejercicios reles.pdf"
+            }
+        ]
+
+    },
+    {
+        "id": 7,
+        "name": "Simplificació de funciones Booleanas",
+        "trimestre": 3,
+        "description": `En aquesta activitat havíem de simplificar les funcions booleanes que vam obtenir a partir de les taules de fa uns exercicis. La simplificació es fa reduint certes expressions que donen un resultat assegurat.`,
+        "files": [
+            {
+                "name": "Activitat Relés",
+                "link": "https://cdn.todo56.dev/tecnologia/work/Ejercicios reles.pdf"
+            }
+        ]
     }
 ];
 
