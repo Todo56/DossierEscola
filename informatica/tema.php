@@ -31,6 +31,10 @@
         <div id="tema">
         
         </div>
+        <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center" id="return">
+  </ul>
+</nav>
     </div>
     <?php 
         include("./assets/partials/footer.php");
@@ -54,6 +58,29 @@ carregarTrimestre("navbar4", 4, true);
 </script>
 <script>
 carregarTema("tema", getParameterByName("id"))
+
+let returnE = document.getElementById("return");
+let id = parseInt(getParameterByName("id"));
+
+let tema;
+
+
+if(existeixTema(id - 1)){
+    tema = obtenirTema(id - 1);
+    returnE.innerHTML = returnE.innerHTML + `    <li class="page-item">
+      <a class="page-link" href="./tema.php?id=${tema.id}"><i class='fa fa-arrow-left'></i>   ${tema.id}. ${tema.name}</a>
+    </li>`
+}
+
+
+if(existeixTema(id + 1)){
+    tema = obtenirTema(id + 1)
+    returnE.innerHTML = returnE.innerHTML + `
+    <li class="page-item">
+      <a class="page-link" href="./tema.php?id=${tema.id}">${tema.id}. ${tema.name}     <i class='fa fa-arrow-right'></i></a>
+    </li>`
+}
+
 </script>
 
 </html>

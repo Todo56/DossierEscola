@@ -373,19 +373,19 @@ const Temes = [{
         ],
         "glossary": [{
                 "word": "Croma",
-                "description": ""
+                "description": "Pantalla normalment verda o blava utilitzada per canviar el fons d'un escenari."
             },
             {
                 "word": "Rear Motion",
-                "description": ""
+                "description": "Rear és enrere en anglès, per tant és la practica de posar un vídeo al revés."
             },
             {
                 "word": "Slow Motion",
-                "description": ""
+                "description": "Slow és lent en anglès, per tant és fer que un vídeo es reprodueixi més lentament."
             },
             {
                 "word": "Fast Motion",
-                "description": ""
+                "description": "Fast és ràpid en anglès, per tant és fer que un vídeo es reprodueixi més ràpidament."
             }
         ]
     },
@@ -404,7 +404,7 @@ Resulta que aquest acudit estava codificada en ROT13, però per resoldre això v
 `,
         "glossary": [{
             "word": "ROT",
-            "description": ""
+            "description": "Sistema de codificació que mou els números 1 posició respecte l'abecedari per crear un de nou que s'utilitza en compte de l'original. Les posicions que es mouen depenen del número que acompanya al ROT (ROT9, ROT2, ROT13)."
         }]
     },
     {
@@ -436,75 +436,150 @@ Resulta que aquest acudit estava codificada en ROT13, però per resoldre això v
         "id": 18,
         "name": "Realitat Virtual",
         "trimestre": 2,
-        "description": ``
-    },
-    {
-        "id": 19,
-        "name": "Treball de Realitats Virtual",
-        "trimestre": 2,
-        "description": ``
+        "description": `Seguidament vam entrar una mica en el mon de les Realitats Virtuals. La primera activitat era explicar la diferència entre Realitat Virtual, Realitat Mixta i Realitat Augmentada. Després vam haver de ensenyar un exemple d'alguna realitat virtual a la classe. Jo vaig decidir ensenyar com jugava a un joc de realitat virtual.`,
+        "files": [{
+            "name": "Treball Realitats Virtuals",
+            "link": "https://cdn.todo56.dev/informatica/treballs/rmrarv.odt"
+        }]
     },
 
     // TERCER TRIMESTRE
     {
-        "id": 20,
+        "id": 19,
         "name": "Programació: Simulador I",
         "trimestre": 3,
-        "description": `Aquesta va ser la primera activitat de informàtica relacionada amb el món de la programació. Havíem de completar un mini curs de programació que es deia LightBot.`,
+        "description": `Aquesta va ser la primera activitat de informàtica relacionada amb el món de la programació. Havíem de completar un mini curs de programació que es deia LightBot. Després també havíem de enviar proves de que vam completar tots els nivells.`,
         "links": [{
             "name": "LightBot",
             "link": "https://lightbot.lu"
+        }],
+        "files": [{
+            "name": "Prova",
+            "link": "https://cdn.todo56.dev/informatica/treballs/infotmp.odt"
         }]
     },
     {
-        "id": 21,
+        "id": 20,
         "name": "Programació: Per Blocs II",
         "trimestre": 3,
-        "description": ``
+        "description": `Després de fer el LightBot vam passar a utilitzar una plataforma anomenada code.org per aprendre una mica més sobre programació. Ens vam crear un compte, el professor ens va donar un codi i ens vam unir a la classe seva. Es programa era similar a lightbot però amb més opcions de peces per connectar.`,
+        "links": [{
+            "name": "Code.org",
+            "link": "https://code.org/"
+        }],
+        "avis": "Aquest treball es va realitzar és enregistrat en les bases de dades de code.org per on el professor por accedir a aquestes."
+    },
+    {
+        "id": 21,
+        "name": "Programació Scratch: Debugging",
+        "trimestre": 3,
+        "description": `En aquesta activitat vam començar a fer servir scratch, que és encara més avançat que lightbot o code.org. En aquest cas el professor ens va donar uns programes que no estaven funcionant correctament i que nosaltres havíem d'arreglar. Després d'arreglar-los havíem de ficar-los en un estudi de scratch.`,
+        "glossary": [{
+            "word": "Debugging",
+            "description": "Acció de arreglar coses dintre de un codi de programació. Normalment es fa a partir de prova i error."
+        }],
+        "link": [{
+                "name": "Estudi",
+                "link": "https://scratch.mit.edu/studios/29545476/"
+            },
+            {
+                "name": "Scratch",
+                "link": "https://scratch.mit.edu/"
+            }
+        ]
     },
     {
         "id": 22,
-        "name": "Programació Scratch: Debugging",
+        "name": "Programació Scratch: Pong",
         "trimestre": 3,
-        "description": ``
+        "description": `Aquesta activitat va ser el nostre primer joc en scratch. Vam haver de recrear el famós joc Pong a scratch. Podíem ser tant creatius com volguéssim. L'havíem de penjar en un estudi del professor Mattis.`,
+        "links": [{
+                "name": "Estudi",
+                "link": "https://scratch.mit.edu/studios/29672793/"
+            },
+            {
+                "name": "El meu PONG",
+                "link": "https://scratch.mit.edu/projects/529367945/"
+            }
+        ]
     },
     {
         "id": 23,
-        "name": "Programació Scratch: Pong",
+        "name": "Programació Scratch: Arkanoid",
         "trimestre": 3,
-        "description": ``
+        "description": `Seguint amb la temàtica dels jocs amb scratch, vam fer un arkanoid. Jo no vaig realitzar aquesta activitat ja que estava fent una activitat extra però els meus companys si.`,
+        "links": [{
+                "name": "Treball d'una companya",
+                "link": "https://scratch.mit.edu/projects/534972658/"
+            },
+            {
+                "name": "Estudi",
+                "link": "https://scratch.mit.edu/studios/29768164/"
+            }
+        ]
     },
     {
         "id": 24,
-        "name": "Programació Scratch: Arkanoid",
-        "trimestre": 3,
-        "description": ``
-    },
-    {
-        "id": 25,
         "name": "Pàgina Web",
         "trimestre": 3,
-        "description": ``
+        "description": `Aquest es l'últim projecte que hem fet a informàtica. No hi ha molt a dir sobre aquest, havíem de fer un dossier en una pàgina web i publicar-la. Deixaré links per les tecnologies que vaig utilitzar per fer la meva.`,
+        "links": [{
+                "name": "CentOS (Sistema Operatiu)",
+                "link": "https://www.centos.org/"
+            },
+            {
+                "name": "NGINX (Servidor Web)",
+                "link": "https://nginx.org/"
+            },
+            {
+                "name": "PHP (Llenguatge de Programació)",
+                "link": "https://www.php.net/"
+            },
+            {
+                "name": "jQuery (Marc de JavaScript)",
+                "link": "https://jquery.com/"
+            },
+            {
+                "name": "Bootstrap (Marc de CSS)",
+                "link": "https://getbootstrap.com/"
+            },
+            {
+                "name": "FontAwesome (Icones)",
+                "link": "https://fontawesome.com/"
+            }
+        ]
     },
 
     // EXTRA
     {
-        "id": 26,
+        "id": 25,
         "name": "Treballs Extras: Descodificador de ROT automàtic",
         "trimestre": 4,
-        "description": ``
+        "description": `Aquesta va ser la primera activitat extra que vaig realitzar, no trobava cap desxifrador de ROT en català per tant vaig decidir crear el meu en JavaScript. Aquesta eina era 100% modificable per tant ja no m'havia de preocupar per el abecedari ja que el podia posar jo.`,
+        "links": [{
+            "name": "Codi de Desxifrador",
+            "link": "https://cdn.todo56.dev/informatica/treballs/CipherROT.zip"
+        }]
+    },
+    {
+        "id": 26,
+        "name": "Treballs Extras: Encriptor Web",
+        "trimestre": 4,
+        "description": `Aquesta tasca va ser més esporàdica. Estàvem tractant el tema de la codificació i vaig pensar en la encriptació. Per tant vaig fer un encriptor i desencriptador en diferents algoritmes. Aquest treball és més gràfic i es pot trobar a la meva web.`,
+        "links": [{
+            "name": "Encriptor i Desencriptador",
+            "link": "https://encryptor.todo56.dev"
+        }]
     },
     {
         "id": 27,
-        "name": "Treballs Extras: Encriptor Web",
-        "trimestre": 4,
-        "description": ``
-    },
-    {
-        "id": 28,
         "name": "Treballs Extras: Tutorial JavaScript",
         "trimestre": 4,
-        "description": ``
+        "description": `Aquesta tasca la vaig realitzar enlloc del Arkanoid. Consistia en fer un tutorial de JavaScript per a principiants. Es pot trobar en el meu GitHub.`,
+        "links": [{
+            "name": "Tutorial",
+            "link": "https://github.com/Todo56/JavaScriptTutorial"
+        }]
     }
 ];
 
@@ -524,7 +599,6 @@ function carregarTrimestre(elementId, trimestreId, navbar = false) {
 }
 
 function carregarTema(elementId, temaId) {
-    console.log(temaId)
     let element = document.getElementById(elementId);
     for (const tema of Temes) {
         if (tema.id == temaId) {
@@ -578,6 +652,20 @@ function carregarTema(elementId, temaId) {
             }
         }
     }
+}
+
+function obtenirTema(tema) {
+    for (const temaI of Temes) {
+        if (temaI.id === tema) return temaI;
+    }
+    return false;
+}
+
+function existeixTema(tema) {
+    for (const temaI of Temes) {
+        if (temaI.id === tema) return true;
+    }
+    return false;
 }
 
 function obtenirTemaNavBarHtml(tema) {
