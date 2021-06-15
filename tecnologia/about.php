@@ -32,7 +32,15 @@
         <br>
         Soc Gottfried Rosenberger Gago, un programador de PHP, JavaScript (server i client), SQL i administrador de sistemes linux i bases de dades. També soc un gran fan dels videojocs com Battlefield V, Hitman 3, Minecraft...
         <br><br>
+        Contacte:
+        <ul>
+            <li><a href='mailto:gottfried@todo56.dev'>Email</a></li>
+            <li><a href='https://t.me/Grosenberger'>Telegram</a></li>
+            <li><a href='mailto:gottfried@todo56.dev'>Email</a></li>
+            <li><a href='mailto:gottfried@todo56.dev'>Email</a></li>
+            <li><a href='mailto:gottfried@todo56.dev'>Email</a></li>
 
+        </ul>
     </div>
     <?php 
         include("./assets/partials/footer.php");

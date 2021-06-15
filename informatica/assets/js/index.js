@@ -237,28 +237,97 @@ const Temes = [{
     "id": 10,
     "name": "GIMP ART i Prova",
     "trimestre": 2,
-    "description": `En aquesta activitat vam passar de fer edicions realistes a editar imatges de manera no realista, més artística. El professor ens va proposar unes imatges i nosaltres vam haver de fer un tutorial de com fer aquest efecte. Aquest tutorial podia ser en qualsevol format però s'havia de entregar en un PDF.`
+    "description": `En aquesta activitat vam passar de fer edicions realistes a editar imatges de manera no realista, més artística. El professor ens va proposar unes imatges i nosaltres vam haver de fer un tutorial de com fer aquest efecte. Aquest tutorial podia ser en qualsevol format però s'havia de entregar en un PDF. Jo vaig decidir fer tots tutorials de Youtube.`,
+    "files": [
+        {
+            "name": "2D a 3D",
+            "link": "https://cdn.todo56.dev/informatica/treballs/gimp/2D a 3D.pdf"
+        },
+        {
+            "name": "Canviar Cap",
+            "link": "https://cdn.todo56.dev/informatica/treballs/gimp/Canviar cap.pdf"
+        },
+        {
+            "name": "Cel·luloide",
+            "link": "https://cdn.todo56.dev/informatica/treballs/gimp/Cel·luloide.pdf"
+        },
+        {
+            "name": "Explosió de Píxels",
+            "link": "https://cdn.todo56.dev/informatica/treballs/gimp/Explosió de píxels.pdf"
+        },
+        {
+            "name": "Frankgimpestein",
+            "link": "https://cdn.todo56.dev/informatica/treballs/gimp/Frankgimpstein.pdf"
+        },
+        {
+            "name": "Fruita amb Cara",
+            "link": "https://cdn.todo56.dev/informatica/treballs/gimp/Fruita amb cara.pdf"
+        },
+        {
+            "name": "Fusió d'animals",
+            "link": "https://cdn.todo56.dev/informatica/treballs/gimp/Fusió d'animals.pdf"
+        },
+        {
+            "name": "Pop up",
+            "link": "https://cdn.todo56.dev/informatica/treballs/gimp/Pop up.pdf"
+        },
+        {
+            "name": "Vintage",
+            "link": "https://cdn.todo56.dev/informatica/treballs/gimp/Vintage.pdf"
+        }
+    ]
 },
 {
     "id": 11,
     "name": "Que li ensenyes al profe?",
     "trimestre": 2,
-    "description": ``
+    "description": `En aquesta activitat li havíem d'ensenyar al professor un efecte que no sapiguem i que vam descobrir en aquella classe.`,
+    "files": [{
+        "name": "Que li ensenyes",
+        "link": "https://cdn.todo56.dev/informatica/treballs/Que li ensenyes.odt"
+    }]
 },
 {
     "id": 12,
     "name": "Informació sobre la Geolocalització",
     "trimestre": 2,
-    "description": ``
+    "description": `En aquest tema ja vam entrar a la seguretat informàtica i privacitat. Aquesta activitat consistía en fer un informe sobre les 3 maneres de geolocalització: IP, GPS, Móvil. Havíem de explicar com funciona, avantatges i inconvenients...`,
+    "files": [{
+        "name": "Informe Geolocalització",
+        "link": "https://cdn.todo56.dev/informatica/treballs/informe geolocalització.odt"
+    }]
 },
 {
     "id": 13,
-    "name": "Edició de Vídeos",
+    "name": "Stop Motion",
     "trimestre": 2,
-    "description": ``
+    "description": `Aquest tema comença amb la edició de vídeos. S'havia de fer un vídeo de 10 segons sense comptar la intro i outro (que eren obligatòries), amb música, en un format comú de vídeo. Aquest vídeo havía de ser stop motion a 24 FPS.`,
+    "files": [{
+        "name": "Stop Motion",
+        "link": "https://cdn.todo56.dev/informatica/treballs/informe geolocalització.odt"
+    }],
+    "glossary": [{
+        "word": "Intro",
+        "description": ""
+    },
+    {
+        "word": "Outro",
+        "description": ""
+    },
+    {
+        "word": "FPS",
+        "description": ""
+    }
+    ]
 },
 {
     "id": 14,
+    "name": "Edició de Vídeos",
+    "trimestre": 2,
+    "description": `Aquesta activitat continua amb l'edició de vídeos, però en aquest cas havíem de fer quatre vídeos de quatre maneres diferents: Fast motion, Slow Motion, Rear Motion, Croma`
+},
+{
+    "id": 15,
     "name": "Activitat Dinàmica de Codificació",
     "trimestre": 2,
     "description": ``
@@ -293,7 +362,11 @@ const Temes = [{
     "id": 18,
     "name": "Programació: Simulador I",
     "trimestre": 3,
-    "description": ``
+    "description": `Aquesta va ser la primera activitat de informàtica relacionada amb el món de la programació. Havíem de completar un mini curs de programació que es deia LightBot.`,
+    "links": [{
+        "name": "LightBot",
+        "link": "https://lightbot.lu"
+    }]
 },
 {
     "id": 19,
