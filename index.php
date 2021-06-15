@@ -31,14 +31,14 @@
             <div class="col-md-6 " style="background-color: #237dcc;">
                 <div class="row justify-content-center h-100">
                     <div class="align-items-center my-auto col-md-12">
-                        <h2 class="text-center align-middle"><a href="/informatica/">Dossier Informática ></a></h2>
+                        <h2 class="text-center align-middle"><a href="./informatica/">Dossier Informática ></a></h2>
                     </div>
                 </div>
             </div>
             <div class="col-md-6" style="background-color: #34c3e3;">
             <div class="row justify-content-center h-100">
                     <div class="align-items-center my-auto col-md-12">
-                        <h2 class="text-center align-middle"><a href="/tecnologia/">Dossier Tecno ></a></h2>
+                        <h2 class="text-center align-middle"><a href="./tecnologia/">Dossier Tecno ></a></h2>
                     </div>
                 </div>
             </div>
