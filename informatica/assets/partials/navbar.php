@@ -23,7 +23,8 @@
                     aria-haspopup="true" aria-expanded="false">
                     Temes
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="dropdown-menu dropdown-menu-left" style='    height: 400px;
+    overflow-y: auto;' aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="./temes.php">Tots</a>
                     <div class="dropdown-divider"></div>
                     <div id="navbar1">
@@ -34,7 +35,9 @@
                     </div>
                     <div class="dropdown-divider"></div>
                     <div id="navbar3">
-
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div id="navbar4">
                     </div>
                 </div>
             </li>

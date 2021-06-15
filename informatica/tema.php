@@ -47,9 +47,10 @@ function getParameterByName(name, url = window.location.href) {
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
-carregarTrimestre("navbar1", 1, true)
-carregarTrimestre("navbar2", 2, true)
-carregarTrimestre("navbar3", 3, true)
+carregarTrimestre("navbar1", 1, true);
+carregarTrimestre("navbar2", 2, true);
+carregarTrimestre("navbar3", 3, true);
+carregarTrimestre("navbar4", 4, true);
 </script>
 <script>
 carregarTema("tema", getParameterByName("id"))

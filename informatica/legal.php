@@ -69,9 +69,10 @@ SOFTWARE.
 </body>
 <script src="./assets/js/index.js"></script>
 <script>
-carregarTrimestre("navbar1", 1, true)
-carregarTrimestre("navbar2", 2, true)
-carregarTrimestre("navbar3", 3, true)
+carregarTrimestre("navbar1", 1, true);
+carregarTrimestre("navbar2", 2, true);
+carregarTrimestre("navbar3", 3, true);
+carregarTrimestre("navbar4", 4, true);
 </script>
 
 

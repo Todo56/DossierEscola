@@ -44,6 +44,11 @@
         </div>
         <br>
         <hr>
+        <h2>Exercicis Extra:</h2>
+        <div id="4">
+        </div>
+        <br>
+        <hr>
     </div>
     <?php 
         include("./assets/partials/footer.php");
@@ -51,14 +56,16 @@
 </body>
 <script src="./assets/js/index.js"></script>
 <script>
-carregarTrimestre("navbar1", 1, true)
-carregarTrimestre("navbar2", 2, true)
-carregarTrimestre("navbar3", 3, true)
+carregarTrimestre("navbar1", 1, true);
+carregarTrimestre("navbar2", 2, true);
+carregarTrimestre("navbar3", 3, true);
+carregarTrimestre("navbar4", 4, true);
 </script>
 <script>
 carregarTrimestre("1", 1);
 carregarTrimestre("2", 2);
 carregarTrimestre("3", 3);
+carregarTrimestre("4", 4);
 </script>
 
 </html>

@@ -485,9 +485,27 @@ Resulta que aquest acudit estava codificada en ROT13, però per resoldre això v
         "name": "Pàgina Web",
         "trimestre": 3,
         "description": ``
-    }
+    },
 
     // EXTRA
+    {
+        "id": 26,
+        "name": "Treballs Extras: Descodificador de ROT automàtic",
+        "trimestre": 4,
+        "description": ``
+    },
+    {
+        "id": 27,
+        "name": "Treballs Extras: Encriptor Web",
+        "trimestre": 4,
+        "description": ``
+    },
+    {
+        "id": 28,
+        "name": "Treballs Extras: Tutorial JavaScript",
+        "trimestre": 4,
+        "description": ``
+    }
 ];
 
 function carregarTrimestre(elementId, trimestreId, navbar = false) {
