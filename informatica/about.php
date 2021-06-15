@@ -38,9 +38,10 @@
             <div class="col-6">
                 Projectes:
                 <ul>
-                    <li><a href=''>ElementBot</a></li>
-                    <li><a href=''>GreekMC Network</a></li>
-                    <li><a href=''>Tutorial de JavaScript</a></li>
+                    <li><a href='https://elementbot.net'>ElementBot</a></li>
+                    <li><a href='https://greekmc.net'>GreekMC Network</a></li>
+                    <li><a href='https://github.com/Todo56/JavaScriptTutorial'>Tutorial de JavaScript</a></li>
+                    <li><a href='https://encryptor.todo56.dev'>Encriptor d'Arxius</a></li>
                 </ul>
             </div>
         </div>
