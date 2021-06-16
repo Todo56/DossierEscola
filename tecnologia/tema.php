@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tema</title>
     <link rel="shortcut icon" type="image/x-icon" href="./assets/images/logo.png" />
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
