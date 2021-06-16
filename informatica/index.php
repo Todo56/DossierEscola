@@ -17,7 +17,7 @@
         include("./assets/partials/navbar.php");
     ?>
     <div class="container">
-        <h1 class="text-center">Dossier Informàtica 4tr ESO</h1><br>
+        <h1 class="text-center">Dossier Informàtica 4rt ESO</h1><br>
         <p>
             Aquesta página web és un recull de les tasques que s'han fet durant tot el curs d'informàtica a 4rt d'ESO al Col·legi Jardí l'any 2020-2021. Totes les activitats penjades aquí corresponen a l'alumne Gottfried Rosenberger.<br>
             <br>Al evaluar o observar aquesta página web cal tenir en compte que no esta feta amb qualsevol dissenyador de págines web, esta programada manualment (utilitzant eines com <a href="https://getbootstrap.com/">Bootstrap</a> i <a href="https://jquery.com/">jQuery</a>) i es troba en un servidor Linux configurat per mi mateix. Això incrementa el que pots fer a la página web però incrementa el nivell de dificultat i temps que has d'invertir. També consumeix recursos del meu servidor (ordinador remot que és on-line 24/7) que pago mensualment.
